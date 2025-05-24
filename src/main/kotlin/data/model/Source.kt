@@ -1,13 +1,13 @@
 package data.model
 
 
-import com.google.gson.annotations.SerializedName
+import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
 
 @Serializable
 data class Source(
-    @SerializedName("id")
+    @SerialName("id")
     val id: String?,
-    @SerializedName("name")
+    @SerialName("name")
     val name: String
 )
